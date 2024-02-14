@@ -141,13 +141,18 @@ void addWaterColor(in vec2 fragCoord, inout vec4 baseColor) {
 
   // Check if the surface is under water:
   if (waterLevel > 0.0) {
-    // Calculate fractal pattern for water surface:
-    float fractalPattern = turb(vec3(fragCoord * 0.05, waterAnimationTime * 0.25));
+    // Adjust the scale factor here to change the size of the fractal pattern
+    float scale = 0.01; // Decrease this value to make the fractal pattern larger
+
+    // Calculate fractal pattern for water surface using the adjusted scale:
+    float fractalPattern = turb(vec3(fragCoord * scale, waterAnimationTime * 0.25));
 
     // Create a color gradient based on the fractal pattern:
     vec4 waterColor = vec4(fractalPattern, fractalPattern * 0.8, 1.0 - fractalPattern * 0.5, 1.0);
 
     // Mix the water color with the base surface color based on the water level:
     baseColor = mix(baseColor, waterColor, min(waterLevel * waterOpacity, 1.0));
+  }
+}
   }
 }
