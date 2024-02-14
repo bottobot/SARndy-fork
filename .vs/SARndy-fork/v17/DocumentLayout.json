@@ -1,0 +1,258 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\makefile||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:makefile||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\Config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Config.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\SurfaceAddWaterColor.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:share\\SARndbox-2.8\\Shaders\\SurfaceAddWaterColor.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\WaterRenderingShader.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:share\\SARndbox-2.8\\Shaders\\WaterRenderingShader.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\WaterRenderingShader.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:share\\SARndbox-2.8\\Shaders\\WaterRenderingShader.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\Sandbox.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Sandbox.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\WaterRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WaterRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\SurfaceIlluminate.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:share\\SARndbox-2.8\\Shaders\\SurfaceIlluminate.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\VERSION||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:VERSION||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\SurfaceElevationShader.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:share\\SARndbox-2.8\\Shaders\\SurfaceElevationShader.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\WaterTable2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WaterTable2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\SurfaceRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SurfaceRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\WaterRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WaterRenderer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\WaterTable2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WaterTable2.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SurfaceAddWaterColor.fs",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\SurfaceAddWaterColor.fs",
+              "RelativeDocumentMoniker": "share\\SARndbox-2.8\\Shaders\\SurfaceAddWaterColor.fs",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\SurfaceAddWaterColor.fs",
+              "RelativeToolTip": "share\\SARndbox-2.8\\Shaders\\SurfaceAddWaterColor.fs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-14T21:19:51.241Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VERSION",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\VERSION",
+              "RelativeDocumentMoniker": "VERSION",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\VERSION",
+              "RelativeToolTip": "VERSION",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-14T20:40:50.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Config.h",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\Config.h",
+              "RelativeDocumentMoniker": "Config.h",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\Config.h",
+              "RelativeToolTip": "Config.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-14T20:19:28.242Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "makefile",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\makefile",
+              "RelativeDocumentMoniker": "makefile",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\makefile",
+              "RelativeToolTip": "makefile",
+              "ViewState": "AQIAAJkAAAAAAAAAAAAAACYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-14T20:17:10.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SurfaceIlluminate.fs",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\SurfaceIlluminate.fs",
+              "RelativeDocumentMoniker": "share\\SARndbox-2.8\\Shaders\\SurfaceIlluminate.fs",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\SurfaceIlluminate.fs",
+              "RelativeToolTip": "share\\SARndbox-2.8\\Shaders\\SurfaceIlluminate.fs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-14T19:03:49.651Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WaterRenderingShader.vs",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\WaterRenderingShader.vs",
+              "RelativeDocumentMoniker": "share\\SARndbox-2.8\\Shaders\\WaterRenderingShader.vs",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\WaterRenderingShader.vs",
+              "RelativeToolTip": "share\\SARndbox-2.8\\Shaders\\WaterRenderingShader.vs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAgwEwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-14T19:20:17.586Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WaterRenderingShader.fs",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\WaterRenderingShader.fs",
+              "RelativeDocumentMoniker": "share\\SARndbox-2.8\\Shaders\\WaterRenderingShader.fs",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\WaterRenderingShader.fs",
+              "RelativeToolTip": "share\\SARndbox-2.8\\Shaders\\WaterRenderingShader.fs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-14T19:20:03.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "WaterRenderer.cpp",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\WaterRenderer.cpp",
+              "RelativeDocumentMoniker": "WaterRenderer.cpp",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\WaterRenderer.cpp",
+              "RelativeToolTip": "WaterRenderer.cpp",
+              "ViewState": "AQIAAKsAAAAAAAAAAAAAAKkAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-14T19:04:04.487Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sandbox.cpp",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\Sandbox.cpp",
+              "RelativeDocumentMoniker": "Sandbox.cpp",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\Sandbox.cpp",
+              "RelativeToolTip": "Sandbox.cpp",
+              "ViewState": "AQIAAOYBAAAAAAAAAAAAACcCAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-14T19:17:18.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SurfaceElevationShader.vs",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\SurfaceElevationShader.vs",
+              "RelativeDocumentMoniker": "share\\SARndbox-2.8\\Shaders\\SurfaceElevationShader.vs",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\share\\SARndbox-2.8\\Shaders\\SurfaceElevationShader.vs",
+              "RelativeToolTip": "share\\SARndbox-2.8\\Shaders\\SurfaceElevationShader.vs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-02-14T20:42:04.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SurfaceRenderer.h",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\SurfaceRenderer.h",
+              "RelativeDocumentMoniker": "SurfaceRenderer.h",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\SurfaceRenderer.h",
+              "RelativeToolTip": "SurfaceRenderer.h",
+              "ViewState": "AQIAACUAAAAAAAAAAAAkwDsAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-14T19:06:54.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "WaterRenderer.h",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\WaterRenderer.h",
+              "RelativeDocumentMoniker": "WaterRenderer.h",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\WaterRenderer.h",
+              "RelativeToolTip": "WaterRenderer.h",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-14T19:05:59.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "WaterTable2.h",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\WaterTable2.h",
+              "RelativeDocumentMoniker": "WaterTable2.h",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\WaterTable2.h",
+              "RelativeToolTip": "WaterTable2.h",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAFEAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-02-14T01:28:52.115Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "WaterTable2.cpp",
+              "DocumentMoniker": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\WaterTable2.cpp",
+              "RelativeDocumentMoniker": "WaterTable2.cpp",
+              "ToolTip": "C:\\Users\\Rob\\Documents\\GitHub\\SARndy-fork\\WaterTable2.cpp",
+              "RelativeToolTip": "WaterTable2.cpp",
+              "ViewState": "AQIAACMEAAAAAAAAAAD4vzkEAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-02-14T01:24:55.038Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

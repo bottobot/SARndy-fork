@@ -1,18 +1,31 @@
-#version 120
+/***********************************************************************
+WaterRenderingShader - Shader to render the water level surface of a
+water table.
+Copyright (c) 2014-2019 Oliver Kreylos
 
-uniform sampler2DRect quantitySampler; // Sampler for the water level
-varying vec2 vTexCoord; // Received from the vertex shader
+This file is part of the Augmented Reality Sandbox (SARndbox).
 
-void main() {
-    // Use the water level data as a proxy for time to create dynamic effects
-    float dynamicFactor = texture2DRect(quantitySampler, vTexCoord).r;
+The Augmented Reality Sandbox is free software; you can redistribute it
+and/or modify it under the terms of the GNU General Public License as
+published by the Free Software Foundation; either version 2 of the
+License, or (at your option) any later version.
 
-    // Simple fractal-like pattern with dynamic modulation
-    vec2 coord = fract(vTexCoord * 10.0 + dynamicFactor); // Modulate coordinates with the dynamic factor
-    float pattern = step(0.5, fract(coord.x * 0.5 + coord.y * 0.5)); // Simple checkerboard pattern
+The Augmented Reality Sandbox is distributed in the hope that it will be
+useful, but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+General Public License for more details.
 
-    // Modulate the pattern further with the dynamic factor to simulate flow
-    pattern *= sin(coord.x + coord.y + dynamicFactor) * 0.5 + 0.5;
+You should have received a copy of the GNU General Public License along
+with the Augmented Reality Sandbox; if not, write to the Free Software
+Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
+***********************************************************************/
 
-    gl_FragColor = vec4(vec3(pattern), 1.0); // Assign the color based on the pattern
-}
+varying vec4 color; // Color value for Goraud shading
+
+void main()
+	{
+	/* Simply assign the interpolated color to the fragment: */
+	//if(color.a<0.0025)
+	//	discard;
+	gl_FragColor=color;
+	}
