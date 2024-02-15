@@ -25,5 +25,5 @@ varying vec4 diffColor,specColor; // Diffuse and specular colors
 void illuminate(inout vec4 baseColor)
 	{
 	/* Modulate the base color, treated as diffuse reflectivity, with the diffuse light color and add the specular light color: */
-	baseColor=baseColor*diffColor+specColor;
+	baseColor=baseColor
 	}
