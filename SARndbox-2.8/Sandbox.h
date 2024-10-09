@@ -79,7 +79,7 @@ class Sandbox:public Vrui::Application,public GLObject
 	typedef Geometry::Box<Scalar,3> Box; // Type for bounding boxes
 	typedef Geometry::OrthonormalTransformation<Scalar,3> ONTransform; // Type for rigid body transformations
 	typedef Kinect::FrameSource::DepthCorrection::PixelCorrection PixelDepthCorrection; // Type for per-pixel depth correction factors
-	
+	FractalRenderer* fractalRenderer;  // Add a pointer to the FractalRenderer
 	struct DataItem:public GLObject::DataItem
 		{
 		/* Elements: */

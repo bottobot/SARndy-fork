@@ -20,7 +20,8 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 ***********************************************************************/
 
 #include "Sandbox.h"
-
+#include <GL/glew.h>
+#include "FractalRenderer.h"
 #include <ctype.h>
 #include <string.h>
 #include <stdlib.h>
@@ -547,6 +548,7 @@ void printUsage(void)
 }
 
 Sandbox::Sandbox(int& argc,char**& argv)
+	    
 	:Vrui::Application(argc,argv),
 	 remoteServer(0),
 	 camera(0),pixelDepthCorrection(0),
@@ -558,8 +560,10 @@ Sandbox::Sandbox(int& argc,char**& argv)
 	 activeDem(0),
 	 mainMenu(0),pauseUpdatesToggle(0),waterControlDialog(0),
 	 waterSpeedSlider(0),waterMaxStepsSlider(0),frameRateTextField(0),waterAttenuationSlider(0),
-	 controlPipeFd(-1)
-	{
+	controlPipeFd(-1)  // No semicolon here
+{
+    // Initialize the fractal renderer
+    fractalRenderer = new FractalRenderer(1024, 768);
 	/* Read the sandbox's default configuration parameters: */
 	std::string sandboxConfigFileName=CONFIG_CONFIGDIR;
 	sandboxConfigFileName.push_back('/');
@@ -1472,7 +1476,9 @@ void Sandbox::display(GLContextData& contextData) const
 		/* Mark the water simulation state as up-to-date for this frame: */
 		dataItem->waterTableTime=Vrui::getApplicationTime();
 		}
-	
+	 // Call the FractalRenderer to generate and display the fractal
+    fractalRenderer->generateFractal();
+    fractalRenderer->displayFractal();
 	/* Calculate the projection matrix: */
 	PTransform projection=ds.projection;
 	if(rs.fixProjectorView&&rs.projectorTransformValid)
@@ -1755,6 +1761,9 @@ void Sandbox::initContext(GLContextData& contextData) const
 	glDrawBuffer(GL_NONE);
 	glReadBuffer(GL_NONE);
 	glBindFramebufferEXT(GL_FRAMEBUFFER_EXT,currentFrameBuffer);
+
+	 // Initialize OpenGL resources for the FractalRenderer
+    fractalRenderer->initOpenGLContext();
 	} 
 	}
 

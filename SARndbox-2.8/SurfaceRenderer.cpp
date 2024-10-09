@@ -84,6 +84,31 @@ SurfaceRenderer::DataItem::~DataItem(void)
 Methods of class SurfaceRenderer:
 ********************************/
 
+void SurfaceRenderer::initFractalShader() {
+    // Load and compile the fractal shader
+    fractalShaderProgram = ShaderHelper::loadShader("FractalShader.vs", "FractalShader.fs");
+
+    // Get uniform locations for height and depth maps
+    heightMapLoc = glGetUniformLocation(fractalShaderProgram, "heightMap");
+    depthMapLoc = glGetUniformLocation(fractalShaderProgram, "depthMap");
+}
+
+void SurfaceRenderer::renderSurfaceWithFractals() {
+    glUseProgram(fractalShaderProgram);
+
+    // Bind height and depth maps
+    glActiveTexture(GL_TEXTURE0);
+    glBindTexture(GL_TEXTURE_2D, heightMap);
+    glUniform1i(heightMapLoc, 0);  // Bind height map to texture unit 0
+
+    glActiveTexture(GL_TEXTURE1);
+    glBindTexture(GL_TEXTURE_2D, depthMap);
+    glUniform1i(depthMapLoc, 1);   // Bind depth map to texture unit 1
+
+    // Draw the surface with the fractal shader
+    drawSurface();
+}
+
 void SurfaceRenderer::shaderSourceFileChanged(const IO::FileMonitor::Event& event)
 	{
 	/* Invalidate the single-pass surface shader: */
