@@ -1,0 +1,52 @@
+Project Directory Structure:
+├── BoxLayout.txt
+├── HeightColorMap.cpt
+└── SARndbox.cfg
+
+
+File: 
+BoxLayout.txt
+Content: 
+(-0.0076185, 0.0271708, 0.999602), -98.0000
+(  -48.6846899089,   -36.4482382583,   -94.8705084084)
+(   48.3653058763,   -34.3990483954,   -89.3884158982)
+(   -50.674914634,    35.8072086558,   -97.4082571497)
+(   48.7936140481,    36.4780970044,     -91.74159795)
+
+
+
+File: 
+HeightColorMap.cpt
+Content: 
+-40.0    0   0  80
+-30.0    0  30 100
+-20.0    0  50 102
+-12.5   19 108 160
+ -0.75  24 140 205
+ -0.25 135 206 250
+ -0.05 176 226 255
+  0.0    0  97  71
+  0.25  16 122  47
+  2.5  232 215 125
+  6.0  161  67   0
+  9.0  130  30  30
+ 14.0  161 161 161
+ 20.0  206 206 206
+ 25.0  255 255 255
+
+
+File: 
+SARndbox.cfg
+Content: 
+# Configuration file for SARndbox application
+# Copyright (c) 2016 Oliver Kreylos
+
+section SARndbox
+	section Camera
+		# Configuration parameters for Kinect v1
+		compressDepthFrames true
+		smoothDepthFrames false
+	endsection
+endsection
+
+
