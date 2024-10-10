@@ -22,8 +22,8 @@ Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307 USA
 #ifndef CONFIG_INCLUDED
 #define CONFIG_INCLUDED
 
-#define CONFIG_CONFIGDIR "/usr/local/etc/SARndbox-3.2"
-#define CONFIG_SHADERDIR "/usr/local/share/SARndbox-3.2/Shaders"
+#define CONFIG_CONFIGDIR "/opt/SARndbox-3.2/etc"
+#define CONFIG_SHADERDIR "/opt/SARndbox-3.2/share/Shaders"
 
 #define CONFIG_DEFAULTCONFIGFILENAME "SARndbox.cfg"
 #define CONFIG_DEFAULTBOXLAYOUTFILENAME "BoxLayout.txt"
