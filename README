@@ -4,6 +4,8 @@ which you can find here: https://web.cs.ucdavis.edu/~okreylos/ResDev/SARndbox/
 I absolutely love this project and have been building and maintaining AR Sandboxes for many years. This is one of my attempts to utilize CLaude LLM
 and the CLine extension for VS Code to add a fractal visualisation on top of the original topographic simulation. 
 
+*Currently this is not a working version and I will be returning to developing it further soon.*
+
 The idea to add a fractal visualisation came from my old creative partner. He custom coded one of the coolest mods I've ever seen.
 He added a Gray-Scott visualisation on top of the orginal topographic map simulation but it also had an interaction with the water simulation. 
 The GS simulation could be seeded randomly by the press of a button and it utilized depth data in order to inform it's generation. It had the visual
